@@ -1,0 +1,521 @@
+export default [
+    {
+      "day": "Monday July 8th",
+      "timeSlots": [
+        {
+          "time": "08:00 - 09:00",
+          "event": "Registration",
+          "room": "Sala Pio XII"
+        },
+        {
+          "time": "09:00 - 09:30",
+          "event": "Opening session",
+          "room": "Sala Pio XII"
+        },
+        {
+          "time": "09:30 - 10:30",
+          "event": "Teaching programming in the age of generative AI — Simone Martini",
+          "room": "Sala Pio XII"
+        },
+        {
+          "time": "11:00 - 12:40",
+          "sessions": [
+            {
+              "name": "Session 1α",
+              "title": "Generative AI – perspectives",
+              "room": "Sala Pio XII",
+              "details": [
+                "Early Adoption of Generative Artificial Intelligence in Computing Education: Emergent Student Use Cases and Perspectives in 2023 — C. Estelle Smith et al.",
+                "Guidelines for the Evolving Role of Generative AI in Introductory Programming Based on Emerging Practice — Joyce Mahon et al.",
+                "AI-Grading Standup Updates to Improve Project-Based Learning Outcomes — Tyler Menezes",
+                "Artificial Intelligence in Everyday Life 2.0: Educating University Students from Different Majors — Maria Kasinidou et al."
+              ]
+            },
+            {
+              "name": "Session 1β",
+              "title": "Feedback",
+              "room": "Sala Napoleonica",
+              "details": [
+                "Feedback-Generation for Programming Exercises With GPT-4 — Imen Azaiz et al.",
+                "Let Them Try to Figure It Out First – Reasons Why Experts (Do Not) Provide Feedback to Novice Programmers — Dominic Lohr et al.",
+                "Iterative Student Program Planning using Transformer-Driven Feedback — Elijah Rivera et al.",
+                "Open Source Language Models Can Provide Feedback: Evaluating LLMs' Ability to Help Students Using GPT-4-As-A-Judge — Charles Koutcheme et al."
+              ]
+            },
+            {
+              "name": "Session 1γ",
+              "title": "Code quality",
+              "room": "Aula 1 Barelli",
+              "details": [
+                "Catalog of Code Quality Defects in Introductory Programming — Anna Řechtáčková et al.",
+                "Embedded-check a Code Quality Tool for Automatic Firmware Verification — Rafael Corsi Ferrão et al.",
+                "Asking Students to Refactor their Code: A Simple and Valuable Exercise — Cruz Izu and Claudio Mirolo",
+                "Are a Static Analysis Tool Study's Findings Static? A Replication — David Liu et al."
+              ]
+            },
+            {
+              "name": "Session 1δ",
+              "title": "Errors and testing",
+              "room": "Aula 3 Panighi",
+              "details": [
+                "Comparison of Three Programming Error Measures for Explaining Variability in CS1 Grades — Valdemar Švábenský, et al.",
+                "Navigating Compiler Errors with AI Assistance: A Study of GPT Hints in an Introductory Programming Course — Maciej Pankiewicz and Ryan Shaun Baker",
+                "Combining Local Testing with Automatic Commits: Benefits for Progress Tracking and CS2 Students' Learning Experience — Aleksandar Karakaš and Denis Helic",
+                "Insights from the Field: Exploring Students' Perspectives on Bad Unit Testing Practices — Anthony Peruma et al."
+              ]
+            },
+            {
+              "name": "Session 1ε",
+              "title": "Tips, Techniques and Courseware",
+              "room": "Aula 2 Lazzati",
+              "details": [
+                "Automated Evaluation of Games programmed in Computer Science Assessments — Dieter Meiller et al.",
+                "Active Repos: Integrating Generative AI Workflows into GitHub — Richard Glassey and Alexander Baltatzis",
+                "Pytch – Supporting your teaching of coding in classroom — Glenn Strong et al.",
+                "Parsons Problems for Professional Learners — Geela Venise Fabic Chee et al.",
+                "Explaining Algorithms with the Visual Programming Language Algot — Sverrir Thorgeirsson and Oliver Graf"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "14:20 - 15:10",
+          "sessions": [
+            {
+              "name": "Session 2α",
+              "title": "Panel: Computer Science Curricula 2023 (CS2023)",
+              "room": "Sala Pio XII",
+              "details": [
+                "Rising to the Challenges of Change in AI, Security, and Society — Sherif Aly, Brett Becker, Amruth Kumar and Rajendra K. Raj"
+              ]
+            },
+            {
+              "name": "Session 2β",
+              "title": "Recursion",
+              "room": "Sala Napoleonica",
+              "details": [
+                "\"Like a Nesting Doll\": Analyzing Recursion Analogies Generated by CS Students Using Large Language Models — Seth Bernstein et al.",
+                "Why Is Recursion Hard to Comprehend? An Experiment with Experienced Programmers in Python — Aviad Baron et al."
+              ]
+            },
+            {
+              "name": "Session 2γ",
+              "title": "Computing in schools 1",
+              "room": "Aula 1 Barelli",
+              "details": [
+                "Experimental Analysis of First-Grade Students' Block-Based Programming Problem Solving Processes — Gabriele Pozzan et al.",
+                "Experiences Trialling a Novel Block-to-text Environment in a Summer School Context — Glenn Strong et al."
+              ]
+            },
+            {
+              "name": "Session 2δ",
+              "title": "Teaching",
+              "room": "Aula 3 Panighi",
+              "details": [
+                "Grasping the Unseen: TA Insights into Teaching Subtle Concepts in Computer Science — Pontus Haglund et al.",
+                "Classification of Shared Tasks Used in Teaching — Theresa Elstner et al."
+              ]
+            },
+            {
+              "name": "Session 2ε",
+              "title": "Sponsor session",
+              "room": "Aula 2 Lazzati",
+              "details": [
+                "GitHub Education"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "15:30 - 16:50",
+          "sessions": [
+            {
+              "name": "Session 3α",
+              "title": "Computing in schools 2",
+              "room": "Sala Pio XII",
+              "details": [
+                "Feedback Literacy: Holistic Analysis of Secondary Educators' Views of LLM Explanations of Program Error Messages — Veronica Cucuiat and Jane Waite",
+                "\"Something that Happens Each Day\" – Students' Explanations of What Algorithms Are — Martina Landman and Tobias Kohn",
+                "Big Ideas of Cryptography in Primary School — Michael Lodi et al."
+              ]
+            },
+            {
+              "name": "Session 3β",
+              "title": "Assessment and autograding",
+              "room": "Sala Napoleonica",
+              "details": [
+                "Code Generation Based Grading: Evaluating an Auto-grading Mechanism for \"Explain-in-Plain-English\" Questions — David Smith and Craig Zilles",
+                "Quickly Producing \"Isomorphic\" Exercises: Quantifying the Impact of Programming Question Permutations — Max Fowler et al.",
+                "A Comparison of Proctoring Regimens for Computer-Based Computer Science Exams — Chinedu Emeka et al."
+              ]
+            },
+            {
+              "name": "Session 3γ",
+              "title": "Cybersecurity 1",
+              "room": "Aula 1 Barelli",
+              "details": [
+                "Research and Practice of Delivering Tabletop Exercises — Jan Vykopal et al.",
+                "From Paper to Platform: Evolution of a Novel Learning Environment for Tabletop Exercises — Valdemar Švábenský et al.",
+                "Using Real-world Bug Bounty Programs in Secure Coding Course: Experience Report — Kamil Malinka et al."
+              ]
+            },
+            {
+              "name": "Session 3δ",
+              "title": "Computer science theory",
+              "room": "Aula 3 Panighi",
+              "details": [
+                "Redux: An Interactive, Dynamic Knowledge Base for Teaching NP-completeness — Kaden Marchetti et al.",
+                "Nondeterministic to Deterministic Finite-State Machine Visualization — Tijana Minić and Marco T. Morazan",
+                "FSM Builder: A Tool for Writing Autograded Finite Automata Questions — Eliot Robson et al."
+              ]
+            },
+            {
+              "name": "Session 3ε",
+              "title": "Databases",
+              "room": "Aula 2 Lazzati",
+              "details": [
+                "Teaching Multiple Data Models and Query Languages — Jens Ehlers",
+                "Building Blocks Towards More Effective SQL Error Messages — Toni Taipalus and Hilkka Grahn",
+                "Enhancing Feedback Generation for Autograded SQL Statements to Improve Student Learning — Carsten Kleiner and Felix Heine"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+    "day": "Tuesday July 9th",
+    "timeSlots": [
+      {
+        "time": "09:00 - 10:40",
+        "sessions": [
+          {
+            "name": "Session 4α",
+            "title": "Generative AI – programming",
+            "room": "Sala Pio XII",
+            "details": [
+              "Self-Regulation, Self-Efficacy, and Fear of Failure Interactions with How Novices Use LLMs to Solve Programming Problems — Lauren Margulieux et al.",
+              "Explaining Code with a Purpose: An Integrated Approach for Developing Code Comprehension and Prompting Skills — Paul Denny et al.",
+              "Performance, Workload, Emotion, and Self-Efficacy of Novice Programmers Using AI Code Generation — Nicholas Gardella et al.",
+              "CS1-LLM: Integrating LLMs into CS1 Instruction — Annapurna Vadaparty et al."
+            ]
+          },
+          {
+            "name": "Session 4β",
+            "title": "EDI",
+            "room": "Sala Napoleonica",
+            "details": [
+              "Broadening Computing Participation in the Navajo Nation — Ashish Amresh et al.",
+              "Competency and Equity Driven Grading System for Computer Science Curriculum — Benjamin Fine",
+              "\"You don't see too many of me, too many of us, in that area\": Exploring the Challenges and Opportunities of Promoting STEM Education among Black and Latinx Students — Isabella Lopez and Sanorita Dey",
+              "Generation and Evaluation of a Culturally-Relevant CS1 Textbook for Latines using Large Language Models — Ismael Villegas Molina et al."
+            ]
+          },
+          {
+            "name": "Session 4γ",
+            "title": "Professional skills",
+            "room": "Aula 1 Barelli",
+            "details": [
+              "Early Computer Science Students' Perspectives Towards The Importance Of Writing — Rutwa Engineer et al.",
+              "Student Perceptions of Computer Science as a Profession — Stacy Doore et al.",
+              "Embedding Technical, Personal and Professional Competencies in Computing Degree Programmes — Tom Crick et al.",
+              "Students' Perceptions of Behaviors Associated with Professional Dispositions in Computing Education — Natalie Kiesler et al."
+            ]
+          },
+          {
+            "name": "Session 4δ",
+            "title": "Plagiarism",
+            "room": "Aula 3 Panighi",
+            "details": [
+              "Semantic Similarity Search for Source Code Plagiarism Detection: An Exploratory Study — Fahad Ebrahim and Mike Joy",
+              "ChatGPT and Cheat Detection in CS1 Using a Program Autograding System — Ashley Pang and Frank Vahid",
+              "Performance Analysis and Interviews of Non-CS-Major Students Sanctioned for Cheating in CS1 — Ashley Pang and Frank Vahid",
+              "Style Anomalies Can Suggest Cheating in CS1 Programs — Benjamin Denzler et al."
+            ]
+          },
+          {
+            "name": "Session 4ε",
+            "title": "DC Lightning talks",
+            "room": "Aula 2 Lazzati",
+            "details": [
+              "Educators as Stakeholders within Adaptive Learning — Nawaf Alajlani",
+              "Developing Automatic Methods for Teaching Code Quality in Introductory Programming — Anna Řechtáčková",
+              "Towards Better Design and Delivery of SE Team Project Courses — Nayla Nasir",
+              "Improving Dropout Prediction for Informatics Bachelor Students — Bettina Manuela Johanna Kern",
+              "and more... see the full list in the program!"
+            ]
+          }
+        ]
+      },
+      {
+        "time": "11:25 - 13:05",
+        "sessions": [
+          {
+            "name": "Session 5α",
+            "title": "Autograding",
+            "room": "Sala Pio XII",
+            "details": [
+              "Ordered Network Analysis in CS Education: Unveiling Patterns of Success and Struggle in Automated Programming Assessment — Andres Felipe Zambrano et al.",
+              "A Case For Reflection In Autograding — Chad Hogg",
+              "Scalable Autograding for Quantum Programming Assignments — Jonathan Beaumont and Kathryn Wakevainen",
+              "Improving Student Learning with Automated Assessment — Ruben Acuna and Ajay Bansal"
+            ]
+          },
+          {
+            "name": "Session 5β",
+            "title": "Emotions, confidence and belonging",
+            "room": "Sala Napoleonica",
+            "details": [
+              "Exploring Students' Self-Confidence in Their Programming Solutions — Sven Strickroth",
+              "In-Person vs Blended Learning: An Examination of Grades, Attendance, Peer Support, Competitiveness, and Belonging — Anshul Shah et al.",
+              "On Using Physiological Sensors and AI to Monitor Emotions in a Bug-Hunting Game — Natalia Silvis-Cividjian et al.",
+              "Fostering and Assessing Dispositions by providing Grades a Meaning in a Computing Education Context — Laura Tubino and Andrew Cain"
+            ]
+          },
+          {
+            "name": "Session 5γ",
+            "title": "Virtual tutors",
+            "room": "Aula 1 Barelli",
+            "details": [
+              "Can Small Language Models with Retrieval-Augmented Generation Replace Large Language Models when Learning Computer Science? — Suqing Liu et al.",
+              "Iris: An AI-Driven Virtual Tutor for Computer Science Education — Patrick Bassner et al.",
+              "Chatbot Development Using LangChain: A Case Study to Foster Critical Thinking and Creativity — Laura Farinetti and Lorenzo Canale",
+              "Desirable Characteristics for AI Teaching Assistants in Programming Education — Paul Denny et al."
+            ]
+          },
+          {
+            "name": "Session 5δ",
+            "title": "Ethics",
+            "room": "Aula 3 Panighi",
+            "details": [
+              "With Great Power Comes Great Responsibility – Integrating Data Ethics into Computing Education — Natalie Kiesler et al.",
+              "Student Perspectives on Using a Large Language Model (LLM) for an Assignment on Professional Ethics — Virginia Grande et al.",
+              "First Year CS Students Exploring And Identifying Biases and Social Injustices in Text-to-Image Generative AI — Mikko Apiola et al.",
+              "Agile Ethics: A Low Stakes, Skills-based Framework for Teaching CS Ethics — Alexi Brooks"
+            ]
+          },
+          {
+            "name": "Session 5ε",
+            "title": "Tips, Techniques and Courseware",
+            "room": "Aula 2 Lazzati",
+            "details": [
+              "Simplifying multimedia programming for novice programmers: MediaLib and its learning materials — Adam Wynn et al.",
+              "Learn by example in a modern embedded system course — Rafael Corsi Ferrão et al.",
+              "Programming Workbook: A Collaborative Coding Fusion (Print and Online) for Mastering Programming Fundamentals — Christian Servin",
+              "Individualising Assessments at Scale — Joshua Burridge",
+              "Databases Without Databases: Projects for Including Database Concepts in Interdisciplinary Curricula with LINQ — Nuno Fachada"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+    {
+    "day": "Wednesday July 10th",
+    "timeSlots": [
+      {
+        "time": "09:00 - 10:40",
+        "sessions": [
+          {
+            "name": "Session 6α",
+            "title": "Working Groups",
+            "room": "Sala Pio XII",
+            "details": [
+              "WG 1: Computing Education in Africa",
+              "WG 2: A Multi-Institutional-Multi-National Study into the Impacts of AI on Work Practices of IT Professionals and Implications for Computing Students",
+              "WG 3: Experiences of Instructors Who Teach Capstone Courses in the Computing and Information Technology Fields",
+              "WG 4: Curriculum Analysis for Data Systems Education",
+              "WG 5: All for One and One for All – Collaboration in Computing Education: Policy, Practice, and Professional Dispositions",
+              "WG 6: Equity-Minded Computer Science Undergraduate Curriculum",
+              "WG 7: What We Talk About When We Talk About K-12 Computing Education"
+            ]
+          },
+          {
+            "name": "Session 6β",
+            "title": "Tools and environments",
+            "room": "Sala Napoleonica",
+            "details": [
+              "Design and Evaluation of a Web-based Distributed Pair Programming Tool for Novice Programmers — José Colin et al.",
+              "Containerizing CS50: Standardizing Students' Programming Environments — David Malan",
+              "MemStep: An Interactive Tool for Constructing and Visualizing the Run-Time Memory Layout of Java Programs — Michelle Pham et al.",
+              "The Shell Tutor: An Intelligent Tutoring System For The UNIX Command Shell And Git — Jaxton Winder et al."
+            ]
+          },
+          {
+            "name": "Session 6γ",
+            "title": "Software engineering",
+            "room": "Aula 1 Barelli",
+            "details": [
+              "External Projects and Partners: Addressing Challenges and Minimizing Risks from the Outset — Stan Kurkovsky et al.",
+              "Code Refactoring Strategies of Third Year Software Engineering Students — Roshan Rajapakse and Claudia Szabo",
+              "Utilizing the Constrained K-Means Algorithm and Pre-Class GitHub Contribution Statistics for Forming Student Teams — Jialin Cui et al.",
+              "A Comparative Analysis of GitHub Contributions Before and After An OSS Based Software Engineering Class — Jialin Cui et al."
+            ]
+          },
+          {
+            "name": "Session 6δ",
+            "title": "Student success and block-based programming",
+            "room": "Aula 3 Panighi",
+            "details": [
+              "Investigating Academic Confidence, Workload Stress, and Performance in a BlendFlex Computer Science Course — Madison Book et al.",
+              "NextBlocks: An Interactive Block Programming Platform — Duarte Pereira et al.",
+              "Block-Based Programming for Mobile with Conventional Exceptions and Automatic Evaluation — Aryobarzan Atashpendar and Steffen Rothkugel",
+              "From Visual Arts to Programming: Exploring the Impact on Achievement in Constructionist College CS1 Classes — Oladele O. Campbell et al."
+            ]
+          },
+          {
+            "name": "Session 6ε",
+            "title": "Live coding",
+            "room": "Aula 2 Lazzati",
+            "details": [
+              "Scalable Feedback for Student Live Coding in Large Courses Using Automatic Error Grouping — Sven Strickroth",
+              "Comparing the Experiences of Live Coding versus Static Code Examples for Students and Instructors — Andrea Watkins et al.",
+              "A Comparison of Student Behavioral Engagement in Traditional Live Coding and Active Live Coding Lectures — Anshul Shah et al.",
+              "Assessing Live Programming for Program Comprehension — Oliver Graf et al."
+            ]
+          }
+        ]
+      },
+      {
+        "time": "11:25 - 12:40",
+        "sessions": [
+          {
+            "name": "Session 7α",
+            "title": "Parsons problems",
+            "room": "Sala Pio XII",
+            "details": [
+              "Evaluating Micro Parsons Problems as Exam Questions — Zihan Wu and David Smith",
+              "Exploring the Acceptance and Effectiveness of Parsons Problems on Scaffolding CS1 Retakers — Felipe Sanhueza et al.",
+              "Automating Personalized Parsons Problems with Customized Contexts and Concepts — Andre del Carpio Gutierrez et al."
+            ]
+          },
+          {
+            "name": "Session 7β",
+            "title": "Computing in schools 3",
+            "room": "Sala Napoleonica",
+            "details": [
+              "Customizing ChatGPT to Help Computer Science Principles Students Learn Through Conversation — Matthew Frazier et al.",
+              "Computational Thinking for Self-Regulated Learning — Stefan Pasterk and Gertraud Benke",
+              "Students' Motivation and Intention to Engage with Data-Driven Technologies from a CS Perspective in Everyday Life — Lukas Höper et al."
+            ]
+          },
+          {
+            "name": "Session 7γ",
+            "title": "Curriculum and learning resources",
+            "room": "Aula 1 Barelli",
+            "details": [
+              "Stubents: Videos Created by and for Students, Active Learning Resources in Large and Diverse Computer Science Classrooms — Yige Chen and Bernardo Pereira Nunes",
+              "Designing a CURE for CS1 — Kevin Buffardi et al.",
+              "The CS1 Python Bakery: A Modern \"Batteries Included\" Open-Source Curriculum with All the Fixings — Austin Bart et al."
+            ]
+          },
+          {
+            "name": "Session 7δ",
+            "title": "Cybersecurity 2",
+            "room": "Aula 3 Panighi",
+            "details": [
+              "A User Experience Study of MeetingMayhem: a Web-Based Game to Teach Adversarial Thinking — Shan Huang et al.",
+              "Design and Use of Privacy Capture-the-Flag Challenges in an Introductory Class on Information Privacy and Security — Wolfgang Vigl and Svetlana Abramova",
+              "Equitable Access to Cybersecurity Education: A Case Study of Underserved Middle School Students — Madison Thomas et al."
+            ]
+          },
+          {
+            "name": "Session 7ε",
+            "title": "Broadening participation 1",
+            "room": "Aula 2 Lazzati",
+            "details": [
+              "Why Female Students Are Dropping out of CS Programs — Rukiye Altin and Andreas Mühling",
+              "Uncovering Meaningful Computing Contexts for Incarcerated College Students — Emma Hogan et al."
+            ]
+          }
+        ]
+      },
+      {
+        "time": "14:30 - 15:20",
+        "sessions": [
+          {
+            "name": "Session 8α",
+            "title": "Working Groups",
+            "room": "Sala Pio XII",
+            "details": [
+              "WG8: Designing a Pedagogical Framework for Developing Abstraction Skills",
+              "WG9: How Are Instructors Incorporating Generative AI into Teaching Computing?",
+              "WG10: Improving Code Quality at CS1 Level: Structure, Style and Good Practices"
+            ]
+          },
+          {
+            "name": "Session 8β",
+            "title": "Student engagement",
+            "room": "Sala Napoleonica",
+            "details": [
+              "Enhancing Student Engagement in Large-Scale Capstone Courses: An Experience Report — Asma Shakil and Paul Denny",
+              "Agora: Motivating and Measuring Engagement in Large-Class Discussions — Hedayat Zarkoob et al."
+            ]
+          },
+          {
+            "name": "Session 8γ",
+            "title": "Computing education research and perception",
+            "room": "Aula 1 Barelli",
+            "details": [
+              "Exploring Barriers and Strategies to boost Scientific Output in Computing Education in Africa: Early Insights — Ismaila Temitayo Sanusi and Ethel Tshukudu",
+              "Exploring Perception in Computer Graphics Education — Amani Najimudeen and Anne-Kathrin Peters"
+            ]
+          },
+          {
+            "name": "Session 8δ",
+            "title": "Supporting students",
+            "room": "Aula 3 Panighi",
+            "details": [
+              "TeachNow: Enabling Teachers to Provide Spontaneous, Realtime 1:1 Help in Massive Online Courses — Ali Malik et al.",
+              "Building Student Support for Computing Students: How Do Students Respond to Different Models? — Fiona McNeill et al."
+            ]
+          },
+          {
+            "name": "Session 8ε",
+            "title": "Broadening participation 2",
+            "room": "Aula 2 Lazzati",
+            "details": [
+              "Capital in Computing Education: Investigating Factors Underlying Participation — Thom Kunkeler and Aletta Nylén",
+              "Bringing Our Full Selves Into Computing: Designing, Building, and Fostering Equitable Computing Education Communities — Francisco Enrique Vicente Castro et al."
+            ]
+          }
+        ]
+      },
+      {
+        "time": "15:20 - 16:30",
+        "event": "Closing & Awards",
+        "room": "Sala Pio XII"
+      }
+    ]
+  }
+  ]
+  
+  export type ConferenceDay = {
+    day: string;
+    timeSlots: TimeSlot[];
+  };
+  
+  export type TimeSlot = {
+    time: string;
+  } & (
+    | { event: string; room: string }
+    | { sessions: Session[] }
+  );
+  
+  export type Session = {
+    name: string;
+    title: string;
+    room: string;
+    details: string[];
+  };
+  
+  export type ConferenceSchedule = ConferenceDay[];
+
+  export type PersonalScheduleItem = {
+    day: string;
+    time: string;
+    session?: Session;
+    event?: string;
+    room?: string;
+  };
+  
